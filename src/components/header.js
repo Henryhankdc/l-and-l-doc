@@ -1,22 +1,24 @@
+import TitleSlide from "../components/title-slide"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="TitleSlide-header">
     <div
       style={{
+        color: `#fff`,
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+        position: `absolute`,
+        padding: `1.45rem 2.75rem`,
+        right: 0,
+        top: `20vh`,
+        zIndex: 2
+
+      }} className="TitleSlide-header-wrapper"
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 className="TitleSlide-header-title">
         <Link
           to="/"
           style={{
@@ -24,10 +26,11 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Lipstick <br/> And Leather
         </Link>
       </h1>
     </div>
+    <TitleSlide></TitleSlide>
   </header>
 )
 

@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 /*
+//NOTE Not the actual "FIRST SLIDE".
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
  * `useStaticQuery`, which allows us to load the image from directly within this
@@ -13,10 +14,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const TitleSlide = () => {
+const FirstSlide = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "slide-1.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "slide-2.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
@@ -31,4 +32,4 @@ const TitleSlide = () => {
   )
 }
 
-export default TitleSlide
+export default FirstSlide
