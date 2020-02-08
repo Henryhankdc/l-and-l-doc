@@ -28,7 +28,7 @@ const FirstSlide = () => {
   `)
 
   return (
-  <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  <Img className="TitleSlide-two" fluid={data.placeholderImage.childImageSharp.fluid} />
   )
 }
 
