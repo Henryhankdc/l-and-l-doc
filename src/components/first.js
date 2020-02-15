@@ -28,7 +28,13 @@ const FirstSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-two" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+        <h2 className="TitleSlide-title">Logline</h2>
+      </div>
+    
+      <Img className="TitleSlide-two" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
   )
 }
 

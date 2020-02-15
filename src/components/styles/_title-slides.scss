@@ -7,9 +7,26 @@
       text-transform: uppercase;
     }
   }
+  &-container {
+    position: relative;
+  }
+  &-wrapper {
+    color: #fff;
+    margin: 0 auto;
+    max-width: 960;
+    position: absolute;
+    padding: 1.45rem 2.75rem;
+    right: 0;
+    top: 20vh;
+    z-index: 2;
+  }
+  &-title {
+    text-transform: uppercase;
+  }
   &-one {
     position: relative;
   }
+
   &-image {
     height: 100%;
     left: 0;
