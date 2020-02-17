@@ -31,6 +31,8 @@ const FirstSlide = () => {
     <div className="TitleSlide-container">
       <div className="TitleSlide-wrapper">
         <h2 className="TitleSlide-title">Logline</h2>
+        <p>In a buttoned-up city, like DC, what happens when drag queens go rogue?</p>
+        <p><span className="uppercase">Lipstick and Leather</span> explores the "alt-drag" community in the nations capital, and how these performers are spreading theior influence across the east coast. </p>
       </div>
     
       <Img className="TitleSlide-two" fluid={data.placeholderImage.childImageSharp.fluid} />
