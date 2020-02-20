@@ -28,7 +28,14 @@ const SixthSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-seventh" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+        <h2 className="TitleSlide-title">Cast</h2>
+          <p>Donna Slash, the founder and core organizer of Gaybash.</p>
+          <p>Donna has appeared at RuPaul's DragCon, starred in Troma Entertainment's <span className="uppercase">Kill Dolly Kill</span>, and fronted the DC punk band Homosuperior.</p>
+      </div>
+      <Img className="TitleSlide-seventh" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
   )
 }
 

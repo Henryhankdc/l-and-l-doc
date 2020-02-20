@@ -28,7 +28,13 @@ const SeventhSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-eigth" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+          <h2 className="TitleSlide-title">Cast</h2>
+            <p>Jane Saw, an Aveda salon stylist, discusses her work and artistic inspirations in film.</p>
+        </div>
+      <Img className="TitleSlide-eigth" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
   )
 }
 

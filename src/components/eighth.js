@@ -28,7 +28,13 @@ const EighthSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-ninth" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+          <h2 className="TitleSlide-title">Cast</h2>
+            <p>Ana Latour, the youngest Gaybash queen, delves into her gender and identity evolution.</p>
+      </div>
+      <Img className="TitleSlide-ninth" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
   )
 }
 

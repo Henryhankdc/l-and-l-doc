@@ -28,7 +28,15 @@ const ThirdSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-four" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+        <h2 className="TitleSlide-title">Setting</h2>
+        <p>Trade, an established gay dive bar in Washington, DC, where Gaybash is prepared for and held.</p>
+      </div>
+
+      <Img className="TitleSlide-four" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
+
   )
 }
 

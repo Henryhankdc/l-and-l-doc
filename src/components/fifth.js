@@ -28,7 +28,13 @@ const FifthSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-sixth" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+        <h2 className="TitleSlide-title">Setting</h2>
+          <p>Rituals, a new queer bar and venue in the Station North neighborhood of Baltimore City; the new home for Gaybash Baltimore.</p>
+        </div>
+      <Img className="TitleSlide-sixth" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
   )
 }
 

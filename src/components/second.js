@@ -28,7 +28,15 @@ const SecondSlide = () => {
   `)
 
   return (
-  <Img className="TitleSlide-three" fluid={data.placeholderImage.childImageSharp.fluid} />
+    <div className="TitleSlide-container">
+      <div className="TitleSlide-wrapper">
+        <h2 className="TitleSlide-title">Plot</h2>
+        <p>DonnaSlash, organizer of Gaybash DC’s monthly alt-dragrevue, has relocated to Baltimore City.</p>
+        <p>Gaybash will continue in DC, but Donna wants to bring her girls to Charm City.</p>
+        <p>A character study of three alternative queens, <span className="uppercase">Lipstick and Leather</span> follows Donna, Jane, and Anna as they prepare for their first Baltimore show.</p>
+      </div>
+      <Img className="TitleSlide-three" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
   )
 }
 
