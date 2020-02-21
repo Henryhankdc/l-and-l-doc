@@ -2,38 +2,40 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import FirstSlide from "../components/first"
-import SecondSlide from "../components/second"
-import ThirdSlide from "../components/third"
-import FourthSlide from "../components/fourth"
-import FifthSlide from "../components/fifth"
-import SixthSlide from "../components/sixth"
-import SeventhSlide from "../components/seventh"
-import EighthSlide from "../components/eighth"
-import NinethSlide from "../components/nineth"
-import TenthSlide from "../components/tenth"
-import EleventhSlide from "../components/eleventh"
+// import SlideOne from "../components/slideone"
+import SlideTwo from "../components/slidetwo"
+import SlideThree from "../components/slidethree"
+import SlideFour from "../components/slidefour"
+import SlideFive from "../components/slidefive"
+import SlideSix from "../components/slidesix"
+import SlideSeven from "../components/slideseven"
+import SlideEight from "../components/slideeight"
+import SlideNine from "../components/slidenine"
+import SlideTen from "../components/slideten"
+import SlideEleven from "../components/slideeleven"
+import SlideTwelve from "../components/slidetwelve"
+
+import Bio from "../components/bio"
 // import ImageOne from "../components/title-slide-image-1"
 // import TitleSlide from "../components/title-slide"
 import SEO from "../components/seo"
 
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-
-  <FirstSlide/>
-  <SecondSlide/>
-  <ThirdSlide/>
-  <FourthSlide/>
-  <FifthSlide/>
-  <SixthSlide/>
-  <SeventhSlide/>
-  <EighthSlide/>
-  <NinethSlide/>
-  <TenthSlide/>
-  <EleventhSlide/>
-
+  <SlideTwo/>
+  <SlideThree/>
+  <SlideFour/>
+  <SlideFive/>
+  <SlideSix/>
+  <SlideSeven/>
+  <SlideEight/>
+  <SlideNine/>
+  <SlideTen/>
+  <SlideEleven/>
+  <SlideTwelve/>
   </Layout>
 )
 
