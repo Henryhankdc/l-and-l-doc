@@ -27,7 +27,14 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>Lipstick and Leather</h2>
+          <div className="Slide">
+            <div className="Slide-wrapper">
+            <div className="Slide-textWrapper w-large">
+              <h2 className="Slide-title">Setting</h2>
+              <p>Trade, an established gay dive bar in Washington, DC, where Gaybash is prepared for and held.</p>
+            </div>
+            </div>
+          </div>
         </BackgroundImage>
       )
     }}

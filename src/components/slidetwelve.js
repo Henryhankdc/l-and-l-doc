@@ -27,7 +27,21 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>Lipstick and Leather</h2>
+          <div className="Slide">
+            <div className="Slide-wrapper">
+            <div className="Slide-textWrapper">
+              <h2 className="Slide-title">Contact</h2>
+              <div className="Slide-diretorsContact">
+              <p>Amy Oden</p>
+              <p>amyoden@gmail.com</p>
+              </div>
+              <div className="Slide-producersContact">
+              <p>Culhanimal Productions</p>
+              <p>js@culhanimalproductions.com</p>
+              </div>
+            </div>
+            </div>
+          </div>
         </BackgroundImage>
       )
     }}

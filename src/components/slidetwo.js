@@ -29,9 +29,11 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="Slide">
             <div className="Slide-wrapper">
+            <div className="Slide-textWrapper w-medium">
               <h2 className="Slide-title">Logline</h2>
               <p>In a buttoned-up city, like DC, what happens when drag queens go rogue?</p>
               <p><span className="uppercase">Lipstick and Leather</span> explores the "alt-drag" community in the nations capital, and how these performers are spreading their influence across the east coast. </p>
+            </div>
             </div>
           </div>
         </BackgroundImage>

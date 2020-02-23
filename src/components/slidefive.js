@@ -27,7 +27,15 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>Lipstick and Leather</h2>
+          <div className="Slide">
+            <div className="Slide-wrapper left-align">
+            <div className="Slide-textWrapper w-medium">
+              <h2 className="Slide-title">Setting</h2>
+              <p>The homes of Donna, Jane, and Ana, the three core queens from Gaybash.</p>
+              <p>Donna's home is Baltimore City, and Jane and ana reside in Washington, DC</p>
+            </div>
+            </div>
+          </div>
         </BackgroundImage>
       )
     }}

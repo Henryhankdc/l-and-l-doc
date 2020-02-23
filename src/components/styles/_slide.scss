@@ -1,14 +1,60 @@
 .Slide {
+  $bp-large: 900px;
+  height: 836px;
+  @media screen and (max-width: $bp-large) {
+    height: auto;
+  }
   p {
     font-size: 1.62671rem;
     font-weight: 300;
     line-height: 1.2;
+    margin-bottom: 0;
     padding: 15px 0;
   }
   &-wrapper {
     color: #fff;
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+    text-align: right;
+    &.left-align {
+      justify-content: left;
+      text-align: left;
+    }
+    &.flex {
+      align-items: center;
+      display: flex;
+      @media screen and (max-width: $bp-large) {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+  &-imageWrapper {
+    width: 40%;
+  }
+  &-textWrapper {
+    margin-top: 50px;
+    width: 60vw;
+    &.w-large {
+      width: 50vw;
+      @media screen and (max-width: $bp-large) {
+        width: 100%;
+      }
+    }
+    &.w-medium {
+      width: 30vw;
+    }
+    &.w-small {
+      width: 25vw;
+    }
+    &.lr-padding {
+      padding: 0 20px;
+    }
   }
   &-title {
+    text-transform: uppercase;
+  }
+  .uppercase {
     text-transform: uppercase;
   }
 }

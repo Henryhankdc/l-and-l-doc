@@ -27,7 +27,18 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>Lipstick and Leather</h2>
+         <div className="Slide">
+            <div className="Slide-wrapper">
+            <div className="Slide-textWrapper">
+              <h2 className="Slide-title">Directors Statement</h2>
+              <p>Drag is curently having a cultural“moment”, and looking at an underepresented community within this
+              larger practice sheds light on power and hierarchy within the art form Drag has been performed for centuries, but what are newer “alt-drag”queens expresing?</p>
+              <p><span className="uppercase">Lipstick and Leather</span> looks at the nuanced answer to this question, teasing out larger themes and reflections, and exploring identity, tradition, community, and relationships.</p>
+              <p>Drag continues to be a vehicle for the preservation of queer tradition, an art form, and a platform to build relationships within the queer community, as well as with allies. Drag can be a mirror, a way to express utopian or dystopian ideas, or simply an outlet for a talented performer. "Alt-drag" performers in DC and Baltimore are building new auidiences, and making the craft their own.</p>
+              <p><span className="uppercase">Lipstick and Leather</span> explores a newer part of a much-beloved tradition.</p>
+            </div>
+            </div>
+          </div>
         </BackgroundImage>
       )
     }}

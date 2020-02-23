@@ -27,7 +27,15 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>Lipstick and Leather</h2>
+          <div className="Slide">
+            <div className="Slide-wrapper">
+            <div className="Slide-textWrapper w-medium">
+              <h2 className="Slide-title">Cast</h2>
+              <p>Donna Slash, the founder and core organizer of Gaybash.</p>
+              <p>Donna has appeared at RuPaul's DragCon, starred in Troma Entertainment's <span className="uppercase">Kill Dolly Kill</span>, and fronted the DC punk band Homosuperior.</p>
+            </div>
+            </div>
+          </div>
         </BackgroundImage>
       )
     }}

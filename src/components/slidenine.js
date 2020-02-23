@@ -27,7 +27,14 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           backgroundColor={`#040e18`}
         >
-          <h2>Lipstick and Leather</h2>
+          <div className="Slide">
+            <div className="Slide-wrapper">
+            <div className="Slide-textWrapper w-small">
+              <h2 className="Slide-title">Cast</h2>
+              <p>Ana Latour, the youngest Gaybash queen, delves into her gender and identity evolution.</p>
+            </div>
+            </div>
+          </div>
         </BackgroundImage>
       )
     }}
