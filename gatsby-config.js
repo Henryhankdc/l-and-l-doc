@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Lipstick and Leather`,
     description: `In a buttoned-up city like DC, what happens when drag queens go rogue? Lipstick and Leather explores the "alt-drag" community in the nations capital, and how these performers are spreading their influence across the east coast.`,
-    author: `@gatsbyjs`,
+    author: `@henryhankdc`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
