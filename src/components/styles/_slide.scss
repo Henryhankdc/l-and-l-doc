@@ -54,6 +54,35 @@
   &-title {
     text-transform: uppercase;
   }
+  &-directorsContact {
+    margin-bottom: 30px;
+    p {
+      padding: 0;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: underline;
+      }
+    }
+  }
+  &-producersContact {
+    p {
+      padding: 0;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: underline;
+      }
+    }
+  }
   .uppercase {
     text-transform: uppercase;
   }

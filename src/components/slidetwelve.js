@@ -28,16 +28,16 @@ const BackgroundSection = ({ className }) => (
           backgroundColor={`#040e18`}
         >
           <div className="Slide">
-            <div className="Slide-wrapper">
+            <div className="Slide-wrapper left-align">
             <div className="Slide-textWrapper">
               <h2 className="Slide-title">Contact</h2>
-              <div className="Slide-diretorsContact">
+              <div className="Slide-directorsContact">
               <p>Amy Oden</p>
-              <p>amyoden@gmail.com</p>
+              <p><a href="mailto:amyoden@gmail.com?subject=Lipstick and Leather Documentary">amyoden@gmail.com</a></p>
               </div>
               <div className="Slide-producersContact">
               <p>Culhanimal Productions</p>
-              <p>js@culhanimalproductions.com</p>
+              <p><a href="mailto:js@culhanimalproductions.com?subject=Lipstick and Leather Documentary">js@culhanimalproductions.com</a></p>
               </div>
             </div>
             </div>

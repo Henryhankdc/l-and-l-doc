@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <footer className="Footer">
           © {new Date().getFullYear()}, Lipstick and Leather Doc by
           {` `}
-          <a href="https://www.gatsbyjs.org">Amy Oden</a>
+          <a href="http://filmsbyamyoden.com/">Amy Oden</a>
         </footer>
       </div>
     </>
