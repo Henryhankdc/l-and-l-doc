@@ -13,7 +13,6 @@ const Header = ({ siteTitle }) => (
         position: `absolute`,
         padding: `1.45rem 2.75rem`,
         right: 0,
-        top: `20vh`,
         zIndex: 2
 
       }} className="TitleSlide-header-wrapper"

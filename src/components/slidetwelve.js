@@ -29,7 +29,7 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="Slide">
             <div className="Slide-wrapper left-align">
-            <div className="Slide-textWrapper">
+            <div className="Slide-textWrapper contact-slide">
               <h2 className="Slide-title">Contact</h2>
               <div className="Slide-directorsContact">
               <p>Amy Oden</p>

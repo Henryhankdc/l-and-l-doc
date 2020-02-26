@@ -29,7 +29,7 @@ const BackgroundSection = ({ className }) => (
         >
          <div className="Slide">
             <div className="Slide-wrapper">
-            <div className="Slide-textWrapper">
+            <div className="Slide-textWrapper director-slide">
               <h2 className="Slide-title">Directors Statement</h2>
               <p>Drag is curently having a cultural“moment”, and looking at an underepresented community within this
               larger practice sheds light on power and hierarchy within the art form Drag has been performed for centuries, but what are newer “alt-drag”queens expresing?</p>

@@ -1,6 +1,19 @@
 .Slide {
   $bp-large: 900px;
+  $bp-medium: 600px;
   height: 836px;
+  // position: relative;
+  // &:after {
+  //   content: "";
+  //   background-size: cover;
+  //   background-color: rgba(0, 0, 0, 0.27);
+  //   position: absolute;
+  //   top: 0px;
+  //   left: 0px;
+  //   width: 100%;
+  //   height: 100%;
+  //   z-index: -1;
+  // }
   @media screen and (max-width: $bp-large) {
     height: auto;
   }
@@ -13,10 +26,14 @@
   }
   &-wrapper {
     color: #fff;
+    text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.35);
     display: flex;
     justify-content: right;
     padding: 50px;
     text-align: right;
+    @media screen and (max-width: $bp-medium) {
+      padding: 50px 10px;
+    }
     &.left-align {
       justify-content: left;
       text-align: left;
@@ -35,6 +52,19 @@
   &-textWrapper {
     margin-top: 50px;
     width: 60vw;
+    &.director-slide {
+      @media screen and (max-width: $bp-medium) {
+        p {
+          font-size: 23px;
+        }
+      }
+    }
+    &.contact-slide {
+      @media screen and (max-width: $bp-medium) {
+        width: 100%;
+      }
+    }
+
     &.w-large {
       width: 50vw;
       @media screen and (max-width: $bp-large) {
@@ -43,12 +73,21 @@
     }
     &.w-medium {
       width: 30vw;
+      @media screen and (max-width: $bp-medium) {
+        width: 100%;
+      }
     }
     &.w-small {
       width: 25vw;
+      @media screen and (max-width: $bp-medium) {
+        width: 100%;
+      }
     }
     &.lr-padding {
       padding: 0 20px;
+      @media screen and (max-width: $bp-medium) {
+        padding: 0 5px;
+      }
     }
   }
   &-title {
@@ -58,6 +97,9 @@
     margin-bottom: 30px;
     p {
       padding: 0;
+      @media screen and (max-width: $bp-medium) {
+        font-size: 25px;
+      }
     }
     a {
       color: white;
@@ -72,6 +114,9 @@
   &-producersContact {
     p {
       padding: 0;
+      @media screen and (max-width: $bp-medium) {
+        font-size: 25px;
+      }
     }
     a {
       color: white;

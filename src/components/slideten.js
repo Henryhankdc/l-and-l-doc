@@ -30,7 +30,7 @@ const BackgroundSection = ({ className }) => (
         >
           <div className="Slide">
             <div className="Slide-wrapper flex">
-            <div className="Slide-textWrapper lr-padding w-large">
+            <div className="Slide-textWrapper lr-padding w-large director-slide">
               <h2 className="Slide-title">The Director</h2>
               <p>Emmy Award winning Producer and Director Amy Oden currently works at PBS's Maryland Public Television, where she sheds light on a variety of social and scientific topics, including the Baltimore uprising, fracking, mass incarceration, and the opioid crisis.</p>
               <p>She is currently working on her thrid independent feature, "Calasag", which is fiscally spoinsored by the international Documentary Association, and was granted a fellowship in the Saul Zaents Innovation Fund at Johns Hopkins. She is also teaches intermediate documentary at the University of Maryland.</p>
