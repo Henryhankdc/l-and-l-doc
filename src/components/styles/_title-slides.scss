@@ -1,9 +1,9 @@
 .TitleSlide {
   &-header {
     &-wrapper {
-      top: 20vh;
-      @media screen and (max-width: 600px) {
-        top: 5vh !important;
+      top: 5vh !important;
+      @media screen and (min-width: 725px) {
+        margin-top: 20vh;
       }
     }
     &-title {
@@ -12,9 +12,26 @@
       text-align: right;
       text-transform: uppercase;
     }
+    &-awardWrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+
+      @media screen and (min-width: 725px) {
+        margin-top: 20px;
+      }
+    }
+    &-award {
+      width: 100px;
+      @media screen and (min-width: 725px) {
+        width: 150px;
+      }
+      @media screen and (min-width: 800px) {
+        width: 200px;
+      }
+    }
   }
   &-container {
-    // min-height: 100vh;
     position: relative;
   }
   &-wrapper {

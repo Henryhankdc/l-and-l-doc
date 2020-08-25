@@ -1,7 +1,10 @@
 import TitleSlide from "../components/title-slide"
+import qAward from "../images/QFest-2020.png" 
+import LgbtqAward from "../images/lgbtqff.png" 
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+
 
 const Header = ({ siteTitle }) => (
   <header className="TitleSlide-header">
@@ -28,6 +31,11 @@ const Header = ({ siteTitle }) => (
           Lipstick <br/> And Leather
         </Link>
       </h1>
+      <div className="TitleSlide-header-awardWrapper">
+        <img src={qAward} className="TitleSlide-header-award" alt="Official Selection Q Fest, St. Louis" />
+        <img src={LgbtqAward} className="TitleSlide-header-award" alt="Official Selection Q Fest, St. Louis" />
+      </div>
+      
     </div>
     <TitleSlide></TitleSlide>
   </header>
@@ -40,5 +48,7 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
+
+
 
 export default Header
