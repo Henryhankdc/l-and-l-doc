@@ -3,9 +3,9 @@ module.exports = {
     title: `Lipstick and Leather`,
     titleTemplate: `%s · Documentary`,
     description: `In a buttoned-up city like DC, what happens when drag queens go rogue? Lipstick and Leather explores the "alt-drag" community in the nations capital, and how these performers are spreading their influence across the east coast.`,
-    url: `https://lipstickandleatherdoc.com/`,
+    url: `https://lipstickandleatherdoc.com`,
     twitterUsername: "@filmsbyamyoden",
-    image: `af2a50f052195b52e0e828eaef597610/9dc27/slide-1.jpg`
+    image: `/static/af2a50f052195b52e0e828eaef597610/47498/slide-1.jpg`
     
   },
   plugins: [
