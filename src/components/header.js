@@ -2,6 +2,8 @@ import TitleSlide from "../components/title-slide"
 import qAward from "../images/QFest-2020.png" 
 import LgbtqAward from "../images/lgbtqff.png" 
 import ReelAffirmLgbtq from "../images/Reel-affirmations-festival-2020.png" 
+import IndyLgbtq from "../images/Indianapolis-LGBT-film-festival-2020.png"
+import VaFilmFestival from "../images/virginia-film-festival-2020.png" 
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
@@ -15,7 +17,7 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         position: `absolute`,
-        padding: `1.45rem 2.75rem`,
+        padding: `26px 49px 10px 49px`,
         right: 0,
         zIndex: 2
 
@@ -33,6 +35,12 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <div className="TitleSlide-header-awardWrapper">
+      <div className="TitleSlide-header-imageWrapper">
+          <img src={VaFilmFestival} className="TitleSlide-header-award" alt="Official Selection: Virginia Film Festival 2020" />
+        </div>
+        <div className="TitleSlide-header-imageWrapper">
+          <img src={IndyLgbtq} className="TitleSlide-header-award" alt="Official Selection: Indianapolis LGBTQ Festival 2020" />
+        </div>
         <div className="TitleSlide-header-imageWrapper">
           <img src={qAward} className="TitleSlide-header-award" alt="Official Selection: Q Fest, St. Louis 2020" />
         </div>

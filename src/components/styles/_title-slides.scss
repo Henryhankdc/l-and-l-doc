@@ -1,4 +1,5 @@
 .TitleSlide {
+  $bp-small: 549px;
   &-header {
     &-wrapper {
       top: 5vh !important;
@@ -14,10 +15,13 @@
     }
     &-awardWrapper {
       display: flex;
-      justify-content: space-around;
+      flex-wrap: wrap;
+      justify-content: flex-start;
       margin-top: 10px;
 
-      @media screen and (min-width: 725px) {
+      @media screen and (min-width: 910px) {
+        flex-wrap: nowrap;
+        justify-content: space-around;
         margin-top: 20px;
       }
     }

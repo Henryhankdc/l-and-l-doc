@@ -1,12 +1,13 @@
 .gatsby-image-wrapper {
   $bp-large: 900px;
+  $bp-small: 500px;
   min-height: 650px;
   padding: 30px;
 
   img {
     height: auto;
-  }
-  @media screen and (max-width: $bp-large) {
-    min-height: auto;
+    @media screen and (max-width: $bp-small) {
+      object-position: 15% 50% !important;
+    }
   }
 }
