@@ -10,20 +10,8 @@ import React from "react"
 
 
 const Header = ({ siteTitle }) => (
-  <header className="TitleSlide-header">
-    <div
-      style={{
-        color: `#fff`,
-        margin: `0 auto`,
-        maxWidth: 960,
-        position: `absolute`,
-        padding: `26px 49px 10px 49px`,
-        right: 0,
-        zIndex: 2
-
-      }} className="TitleSlide-header-wrapper"
-    >
-      <h1 className="TitleSlide-header-title">
+  <header className="header">
+      <h1>
         <Link
           to="/"
           style={{
@@ -31,29 +19,9 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Lipstick <br/> And Leather
+          Lipstick <br/> & Leather
         </Link>
       </h1>
-      <div className="TitleSlide-header-awardWrapper">
-      <div className="TitleSlide-header-imageWrapper">
-          <img src={VaFilmFestival} className="TitleSlide-header-award" alt="Official Selection: Virginia Film Festival 2020" />
-        </div>
-        <div className="TitleSlide-header-imageWrapper">
-          <img src={IndyLgbtq} className="TitleSlide-header-award" alt="Official Selection: Indianapolis LGBTQ Festival 2020" />
-        </div>
-        <div className="TitleSlide-header-imageWrapper">
-          <img src={qAward} className="TitleSlide-header-award" alt="Official Selection: Q Fest, St. Louis 2020" />
-        </div>
-        <div className="TitleSlide-header-imageWrapper">
-          <img src={LgbtqAward} className="TitleSlide-header-award" alt="Official Selection: The Palm Spring LGBTQ Film Festival 2020" />
-        </div> 
-        <div className="TitleSlide-header-imageWrapper">
-          <img src={ReelAffirmLgbtq} className="TitleSlide-header-award" alt="Official Selection: Reel Affirmations, Washington DC's International LGBTQ Film Festival 2020" />
-        </div> 
-      </div>
-      
-    </div>
-    <TitleSlide></TitleSlide>
   </header>
 )
 
