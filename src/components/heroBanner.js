@@ -13,6 +13,7 @@ import VaFilmFestival from "../images/virginia-film-festival-2020.png"
 import VaFilmFestivalMobile from "../images/virginia-film-festival-2020-mobile.png"  
 import LgbtqTff from "../images/LGBTQ-tff-2021.png" 
 import LgbtqTffMobile from "../images/LGBTQ-tff-2021-mobile.png"
+import LookBook from "../images/2021-L-and-L-Lookbook.pdf"
 
 const HeroBanner = () => (
 <div className="heroBanner">
@@ -43,6 +44,9 @@ const HeroBanner = () => (
             <img src={LgbtqTffMobile} className="TitleSlide-header-award mobile" alt="Official Selection: LGBTQ Toronto Film Festival 2021" />
         </div>
     
+    </div>
+    <div className="heroBanner-buttonWrapper">
+        <a href={LookBook} download className="heroBanner-button">Download Lookbook</a>
     </div>
 </div>
 )
