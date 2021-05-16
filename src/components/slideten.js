@@ -37,7 +37,7 @@ const BackgroundSection = ({ className }) => (
               <p>Amy holds BA in Jounralism from the University of Maryland, and an MA in Gender and Media from George Washington University. Her work has won Emmy, Davey, and W3 Awards. </p>
               
             </div>
-            <div className="Slide-imageWrapper">
+            <div className="Slide-imageWrapper director">
             <BioImage/>
             </div>
           

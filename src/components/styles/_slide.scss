@@ -38,6 +38,17 @@
   &-imageWrapper {
     width: 40%;
   }
+  &-imageWrapper.director {
+    width: 100%;
+    @media screen and (min-width: $bp-large) {
+      width: 40%;
+    }
+    .gatsby-image-wrapper {
+      @media screen and (max-width: $bp-large) {
+        min-height: 200px;
+      }
+    }
+  }
   &-textWrapper {
     margin-top: 50px;
     width: 60vw;
