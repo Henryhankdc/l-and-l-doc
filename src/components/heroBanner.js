@@ -14,6 +14,10 @@ import VaFilmFestivalMobile from "../images/virginia-film-festival-2020-mobile.p
 import LgbtqTff from "../images/LGBTQ-tff-2021.png" 
 import LgbtqTffMobile from "../images/LGBTQ-tff-2021-mobile.png"
 import LookBook from "../images/2021-L-and-L-Lookbook.pdf"
+import OpenRoad from "../images/open-road-film-festival-2022.png" 
+import OpenRoadMobile from "../images/open-road-film-festival-2022-mobile.png"
+import BethesdaFf from "../images/bethesda-film-festival-2021.png"
+import BethesdaFfMobile from "../images/bethesda-film-festival-2021-mobile.png" 
 
 const HeroBanner = () => (
 <div className="heroBanner">
@@ -42,6 +46,14 @@ const HeroBanner = () => (
         <div className="heroBanner-imageWrapper">
             <img src={LgbtqTff} className="TitleSlide-header-award" alt="Official Selection: LGBTQ Toronto Film Festival 2021" />
             <img src={LgbtqTffMobile} className="TitleSlide-header-award mobile" alt="Official Selection: LGBTQ Toronto Film Festival 2021" />
+        </div>
+        <div className="heroBanner-imageWrapper">
+            <img src={BethesdaFf} className="TitleSlide-header-award" alt="Official Selection: Bethesda Film Festival 2021" />
+            <img src={BethesdaFfMobile} className="TitleSlide-header-award mobile" alt="Official Selection: Bethesda Film Festival 2021" />
+        </div>
+        <div className="heroBanner-imageWrapper">
+            <img src={OpenRoad} className="TitleSlide-header-award" alt="Official Selection: Open Road Film Festival 2022" />
+            <img src={OpenRoadMobile} className="TitleSlide-header-award mobile" alt="Official Selection: Open Road Film Festival 2022" />
         </div>
     
     </div>

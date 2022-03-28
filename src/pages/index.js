@@ -13,8 +13,6 @@ import SlideNine from "../components/slidenine"
 import SlideTen from "../components/slideten"
 import SlideEleven from "../components/slideeleven"
 import SlideTwelve from "../components/slidetwelve"
-// import ImageOne from "../components/title-slide-image-1"
-// import TitleSlide from "../components/title-slide"
 import SEO from "../components/seo"
 import HeroBanner from '../components/heroBanner'
 
