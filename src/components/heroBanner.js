@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import qAward from "../images/QFest-2020.png"
 import qAwardMobile from "../images/QFest-2020-mobile.png"  
